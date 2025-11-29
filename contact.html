@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact SV Madras Kadai for saree and jewelry enquiries. WhatsApp only ordering, business hours and social links."
+    />
+    <title>Contact | SV Madras Kadai</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-content">
+        <a href="index.html" class="logo">
+          <span class="logo-main">SV Madras Kadai</span>
+          <span class="logo-tagline">Authentic Sarees & Elegant Jewelry</span>
+        </a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="about.html">About</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+        <a
+          href="https://wa.me/60108801843"
+          class="btn btn-outline nav-whatsapp"
+          target="_blank"
+          rel="noopener"
+        >
+          Order via WhatsApp
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Get in Touch</p>
+          <h1>Contact SV Madras Kadai</h1>
+          <p class="page-subtitle">
+            For all saree and jewelry enquiries, please contact us directly on
+            WhatsApp. We’ll be happy to share options, photos and pricing.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div class="contact-details">
+            <h2>Primary Contact</h2>
+            <p>
+              We handle all orders and enquiries
+              <strong>only via WhatsApp</strong> so we can give personalised
+              recommendations and live updates.
+            </p>
+
+            <div class="contact-block">
+              <h3>WhatsApp</h3>
+              <a
+                href="https://wa.me/60108801843"
+                class="contact-link main-contact"
+                target="_blank"
+                rel="noopener"
+              >
+                +60 10 880 1843
+              </a>
+              <a
+                href="https://wa.me/60108801843"
+                class="btn btn-primary contact-whatsapp-btn"
+                target="_blank"
+                rel="noopener"
+              >
+                Chat on WhatsApp
+              </a>
+            </div>
+
+            <div class="contact-block">
+              <h3>Email</h3>
+              <p>
+                <a href="mailto:hello@svmadraskadai.com" class="contact-link">
+                  hello@svmadraskadai.com
+                </a>
+              </p>
+              <p class="contact-note">
+                For quicker replies and ordering, we still recommend WhatsApp.
+              </p>
+            </div>
+
+            <div class="contact-block">
+              <h3>Instagram</h3>
+              <p>
+                <a
+                  href="#"
+                  class="contact-link"
+                  aria-label="Instagram placeholder"
+                >
+                  @svmadraskadai (Instagram handle placeholder)
+                </a>
+              </p>
+              <p class="contact-note">
+                Follow us for collection previews, styling ideas and updates.
+              </p>
+            </div>
+
+            <div class="contact-block">
+              <h3>Business Hours</h3>
+              <ul class="business-hours">
+                <li><span>Monday – Friday</span><span>10:00 AM – 7:00 PM</span></li>
+                <li><span>Saturday</span><span>11:00 AM – 6:00 PM</span></li>
+                <li><span>Sunday & Public Holidays</span><span>Limited support</span></li>
+              </ul>
+              <p class="contact-note">
+                You may message us on WhatsApp anytime – we will respond during
+                our active hours.
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <h2>Optional Contact Form</h2>
+            <p>
+              Prefer not to message immediately? Leave your details here and we
+              will reach out on WhatsApp or email. For urgent orders, please use
+              WhatsApp directly.
+            </p>
+
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your full name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">WhatsApp Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="+60..."
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email (optional)</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@example.com"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">What are you looking for?</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="E.g. bridal Kanchipuram saree, budget range, delivery timeline…"
+                  required
+                ></textarea>
+              </div>
+
+              <p class="form-note">
+                This form does not place an order directly. We will follow up
+                with you, and all final confirmations & payments will be done
+                <strong>only via WhatsApp.</strong>
+              </p>
+
+              <button type="submit" class="btn btn-outline form-submit">
+                Send details (we will WhatsApp you)
+              </button>
+              <p class="form-status" id="form-status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>SV Madras Kadai</h3>
+          <p>Authentic Sarees & Elegant Jewelry – Delivered Across Malaysia</p>
+        </div>
+        <div class="footer-links">
+          <p><strong>WhatsApp only:</strong></p>
+          <a
+            href="https://wa.me/60108801843"
+            target="_blank"
+            rel="noopener"
+            class="footer-contact-link"
+          >
+            +60 10 880 1843
+          </a>
+          <p class="footer-note">
+            All orders & enquiries are processed exclusively via WhatsApp. No
+            other payment or checkout options.
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <span>© <span id="year"></span> SV Madras Kadai. All rights reserved.</span>
+          <span>Based in Malaysia · Indian Ethnic Boutique</span>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="https://wa.me/60108801843"
+      class="floating-whatsapp"
+      target="_blank"
+      rel="noopener"
+      aria-label="Chat on WhatsApp"
+    >
+      <span class="wa-icon"></span>
+      <span class="wa-text">Order via WhatsApp</span>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
